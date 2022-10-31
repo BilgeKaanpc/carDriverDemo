@@ -19,7 +19,8 @@ public class carController : MonoBehaviour
     public Transform rearRightWheelTransform;
 
     [SerializeField] private TextMeshProUGUI speedText;
-
+    
+    
     public float maxSteeringAngle = 30f;
     public float motorForce = 50f;
     public float brakeForce = 0f;
